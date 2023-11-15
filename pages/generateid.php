@@ -42,6 +42,7 @@
     <div class="sidenav" id="mysidenav">
   <a href="javascript:void(0)" class="closebtn" onclick="closenav()">&times;</a>
   <a href="../index.php"><p> <i class="fa-solid fa-house"></i> Home</p></a>
+  <a href="Voting_form.php"><p><i class="fa-solid fa-check-to-slot"></i> Vote</p></a>
   <a href=""><p><i class="fa-solid fa-chart-simple fa-fade"></i> View Live Results</p></a>
 
 </div>
@@ -53,6 +54,7 @@
         <img id="aptechLogo" src="../img/Aptech_Logo.png" alt="">
         <div id="links">
         <a href="../index.php"><p> <i class="fa-solid fa-house"></i> Home</p></a>
+        <a href="Voting_form.php"><p><i class="fa-solid fa-check-to-slot"></i> Vote</p></a>
         <a href="liveResults.php"><p><i class="fa-solid fa-chart-simple fa-fade"></i> Live Results</p></a>
         </div>
     </div>
