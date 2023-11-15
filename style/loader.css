@@ -1,0 +1,23 @@
+    /* Define the CSS animation */
+    @keyframes spin {
+        0% { transform: rotate(0deg); }
+        100% { transform: rotate(360deg); }
+    }
+
+      /* Apply the animation to the image within the spinner div */
+      .spinner {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh; /* Optional: Adjust the height based on your layout */
+    }
+
+    .spinner img {
+        animation: spin infinite 2s linear; /* Adjust the animation duration as needed */
+        width: 230px;
+        height: 230px;
+    }
+
+    body{
+        background-color: black;
+    }

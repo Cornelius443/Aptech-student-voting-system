@@ -1,0 +1,351 @@
+body {
+    /* background-color: #232323; */
+    background-image: linear-gradient(rgba(23, 22, 22, 0.4), rgba(23, 23, 22, 0.4)),url(../img/elimende-inagella-7OxV_qDiGRI-unsplash.jpg);
+    background-size: cover;
+    cursor: cell;
+
+
+
+}
+
+
+.sidenav{
+    
+    height: 40%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 40px;
+    left: 0;
+    background-color: #000;
+    padding-top: 80px;
+    transition: 0.5s;
+    overflow-x: hidden;
+}
+
+.sidenav a{
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+}
+.sidenav a:hover{
+    color: #fff;
+}
+.sidenav .closebtn{
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+#nav_btn{
+    display: none;
+}
+#home{
+      /* background-color: #232323; */
+      background-image: linear-gradient(rgba(23, 22, 22, 0.4), rgba(23, 23, 22, 0.4)),url(../img/bp-miller-yZZEWg6xQ68-unsplash.jpg);
+      background-size: cover;
+      background-position-y: center;
+      
+    
+}
+#header{
+    /* border: 3px solid black; */
+    position: absolute;
+    top: 0px;
+    width: 100%;
+    display: flex;
+    background-color: rgb(23, 23, 23);
+  
+}
+#header a{
+    text-decoration: none;
+}
+#header p{
+    margin-top: 40px;
+    color: rgb(255, 255, 255);
+}
+#links{
+    margin-left: 800px;
+    display: flex;
+    justify-content: space-evenly;
+    width: 300px;
+    /* border: 3px solid black; */
+    
+}
+#aptechLogo{
+    width: 200px;
+    height: 100px;
+    margin-left: 10px;
+    margin-top: 5px;
+}
+#message-container{
+    width: fit-content; 
+    margin: auto; 
+    position: absolute; 
+    left: 170px; 
+    top: -20px;
+    border-radius: 5px;
+   
+}
+label{
+    position: relative;
+    bottom: 5px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+#contain {
+  
+    position: relative;
+    /* background-image: linear-gradient(rgba(23, 22, 22, 0.4), rgba(23, 23, 22, 0.4)),url(../img/daniel-josef-AMssSjUaTY4-unsplash.jpg); */
+    background-size: contain;
+    background-color: #000000;
+    padding: 50px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.6);
+    max-width: 800px;
+    margin: auto;
+    margin-top: 200px;
+    text-align: center;
+    color: white;
+}
+
+#contain img{
+    position: absolute;
+    top: 50px;
+    left: 50px;
+    width: 50px;
+    height: 50px;
+}
+
+#contain #img2{
+    position: absolute;
+    left: 700px;
+    top: 300px;
+    width: 50px;
+    height: 50px;
+}
+.container {
+    position: relative;
+    background-color: #0f0f0f;
+    padding: 50px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.6);
+    max-width: 800px;
+    margin: auto;
+    margin-top: 250px;
+    text-align: center;
+    color: white;
+   
+}
+
+.container img{
+    position: absolute;
+    top: 170px;
+    left: 20px;
+    width: 50px;
+    height: 50px;
+}
+.container h1{
+    color: gold;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.container p{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.container a{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#liveResults {
+    margin-top: 20px;
+}
+
+h2 {
+    color: rgb(235, 179, 25);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+h3 {
+    color: red;
+}
+
+p {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+/* Style for the vote counts */
+.vote-count {
+    font-weight: bold;
+    color: #28a745;
+}
+
+#student_name, #candidate, #category, #studentId{
+    background-color: rgb(77, 74, 74);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white;
+    border: none;
+    margin: auto;
+    width: 60%;
+}
+
+#sub{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    width: 200px; 
+}
+.form-group{
+    margin-top: 20px;
+    
+}
+
+
+footer{
+    margin-top: 80px;
+    height: 100px;
+    background-color: black;
+    color: white;
+}
+
+#homeFoot{
+    position: relative;
+    top: 120px;
+    height: 100px;
+    background-color: black;
+    color: white;
+}
+footer p{
+   text-align: center;
+   position: relative;
+   top: 30px;
+   color: rgb(236, 236, 236);
+   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#scroll{
+    position: absolute;
+    top: 100px;
+    overflow: hidden;
+    /* border: 3px solid white; */
+    width: 100%;
+  
+   
+    white-space: nowrap;
+}
+
+#scroll p{
+    color: white;
+    animation: scroll 30s linear infinite;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  
+    
+   
+ 
+ 
+}
+@keyframes scroll {
+    0% {
+        transform: translateX(100%);
+      }
+      100% {
+        transform: translateX(-100%);
+      }
+}
+
+@media screen and (max-width: 700px){
+    #message-container{
+        
+      
+        left: 0px;
+    }
+
+#aptechLogo{
+    width: 140px;
+    height: 100px;
+}
+.container{
+    position: relative;
+    bottom: 50px;
+}
+
+.container img{
+    top: 205px;
+}
+.container h1{
+    font-size: 25px;
+}
+.container p{
+    font-size: 15px;
+    flex-wrap: wrap;
+}
+#contain #img2{
+    display: none;
+}
+#contain img{
+    top: 200px;
+    left: 10px;
+}
+
+#scroll p{
+    font-size: 15px;
+}
+#nav_btn{
+    display: block;
+    position: absolute;
+    left: 320px;
+    top: 30px;
+    color: white;
+    font-size: 20px;
+    z-index: 1;
+}
+    #links{
+        display: none;
+    }
+
+    #homeFoot{
+        top: 0px;
+        
+    }
+    #formFoot{
+       margin-top: 0;
+    }
+    #formFoot p{
+        font-size: 15px;
+    }
+    #homeFoot p{
+        font-size: 15px;
+        top: 50px;
+    }
+
+    #sub{
+        width: 120px;
+    }
+}
+
+@media screen and (min-aspect-ratio: 16/9) {
+    #homeFoot{
+        top: 295px;
+    }
+
+    .container{
+        position: relative;
+        top: 100px;
+    }
+
+    #links{
+        margin-left: 1000px;
+        display: flex;
+        justify-content: space-evenly;
+        width: 300px;
+        /* border: 3px solid black; */
+        
+    }
+
+    #formFoot{
+        margin-top: 260px;
+        height: 100px;
+        background-color: black;
+        color: white;
+    }
+}
